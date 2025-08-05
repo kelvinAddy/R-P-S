@@ -155,7 +155,6 @@ gameBtns.forEach((x) => {
     matchWinner();
     displayImage(playerChoice, playerState, "player");
     seriesNum--;
-    console.log(seriesNum);
   });
 });
 
