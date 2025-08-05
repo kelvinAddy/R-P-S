@@ -141,3 +141,4 @@ h1 {
 .draw-bg {
     background: linear-gradient(135deg, #546e7a, #b0bec5);
     transition: background 0.8s ease;
+}
