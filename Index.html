@@ -10,29 +10,35 @@
   <body>
     <div class="game-wrapper">
       <header>
-        <button class="retart btn">Restart</button>
-        <button class="best-of btn">Best of:</button>
+        <button class="restart btn">Restart</button>
+        <form>
+          <label for="best-of">Number of Rounds: </label>
+          <select id="best-of" name="best-of">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+          </select>
+        </form>
       </header>
       <div class="game-header-label">ROCK PAPER SCISSORS</div>
 
       <section class="card-section">
         <div class="player-card">
           <div class="game-card player"></div>
-          <div class="score-card">Player-score: <span id="player"></span></div>
+          <div class="score-card">
+            Player-score: <span id="player-score">0</span>
+          </div>
         </div>
 
         <h1>VS</h1>
         <div class="player-card">
           <div class="game-card computer"></div>
           <div class="score-card">
-            Computer-score: <span id="computer-score"></span>
+            Computer-score: <span id="computer-score">0</span>
           </div>
         </div>
       </section>
 
-      <div class="play-game">
-        <button class="play-button">PLAY</button>
-      </div>
       <section class="user-choices">
         <button class="rock choice">ROCK</button>
         <button class="paper choice">PAPER</button>
