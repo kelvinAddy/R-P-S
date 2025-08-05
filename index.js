@@ -81,7 +81,7 @@ const updateWinnerLabel = () => {
 const displayImage = (image, player, playerStr) => {
   let node = document.createElement("img");
   node.classList.add("game-img");
-  node.src = `./Assets/${playerStr}/${image}.png`;
+  node.src = `./Assets/${playerStr}/${image}.webp`;
   clearContent(player);
   player.appendChild(node);
 };
