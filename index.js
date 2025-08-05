@@ -144,7 +144,7 @@ const matchWinner = () => {
       count -= 1;
       gameHeader.textContent = "Thinking....";
     }
-  }, 500);
+  }, 1000);
   count = 3;
 };
 
